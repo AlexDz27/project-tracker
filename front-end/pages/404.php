@@ -9,10 +9,7 @@
 <body>
   
 <div class="cont">
-  <h1>Hello</h1>
-  <p>Some English text here and there</p>
-  <h1>Привет</h1>
-  <p>Вот такой вот текст на русском</p>
+  <h1>404 - Page not found</h1>
 </div>  
 
 </body>
