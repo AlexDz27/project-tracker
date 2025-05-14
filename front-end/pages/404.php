@@ -1,16 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Project Tracker</title>
-</head>
+<?php load('front-end/parts/header.php') ?>
+
 <body>
+<header class="header cont">
+  <button id="someHeaderMenuBtn">Hdr btn</button>
+</header>
   
 <div class="cont">
   <h1>404 - Page not found</h1>
 </div>  
 
-</body>
-</html>
+<?php load('front-end/parts/footer.php') ?>

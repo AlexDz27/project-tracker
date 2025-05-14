@@ -1,8 +1,7 @@
 <?php
 
-// TODO: phpstorm -> check how Laravel wrote app_path (or root_path) -> write the same code in my app
 // TODO: ensure everything works correctly (dont forget invite.php)
-require "variables.php";
+load('app/vars.php');
 
 $token = $_COOKIE['token'] ?? null;
 forbidIfBadToken($token);
@@ -19,6 +18,6 @@ function forbidIfBadToken($token) {
   if (empty($reason)) return;
 
   http_response_code(401);
-  require "pages/forbidden.php";
+  require ROOT . "/front-end/pages/forbidden.php";
   die();
 }

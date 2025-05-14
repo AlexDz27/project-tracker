@@ -1,11 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>Project Tracker</title>
-</head>
+<?php load('front-end/parts/header.php') ?>
+
 <body>
 
 <header class="header cont">
@@ -35,5 +29,4 @@
   </div>
 </main>
 
-</body>
-</html>
+<?php load('front-end/parts/footer.php') ?>

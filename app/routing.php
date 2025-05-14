@@ -1,12 +1,12 @@
 <?php
 
 $routes = [
-  '/' => "pages/home.php",
+  '/' => "front-end/pages/home.php",
 
-  '/sprava' => "sprava.php",
-  '/project-tracker' => "project-tracker.php",
+  '/sprava' => "front-end/pages/sprava.php",
+  '/project-tracker' => "front-end/pages/project-tracker.php",
 
-  '404' => "pages/404.php"
+  '404' => "front-end/pages/404.php"
 ];
 setRoutes($routes);
 
@@ -21,11 +21,11 @@ function setRoutes($routes) {
 
   foreach ($routes as $routeUri => $routePage) {
     if ($uri === $routeUri) {
-      require $routePage;
+      load($routePage);
       return;
     }
   }
 
   http_response_code(404);
-  require $route404;
+  load($route404);
 }
