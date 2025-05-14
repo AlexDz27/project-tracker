@@ -39,6 +39,10 @@ li:last-child {
   margin-bottom: 40px;
 }
 
+.section-1 {
+  padding-top: 30px;
+}
+
 .column__cont {
   display: grid;
   grid-template-columns: minmax(auto, 320px) minmax(auto, 320px) minmax(auto, 320px);

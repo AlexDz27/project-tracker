@@ -2,8 +2,12 @@
 
 <body class="home">
 <header class="header cont">
-  <button id="someHeaderMenuBtn">Hdr btn</button>
+  <button id="someHeaderBtn">Hdr btn <span></span></button>
 </header>
+
+<section class="section-1 cont">
+  <button id="someHomeBtn">Home btn <span></span></button>
+</section>
 
 <div class="cont">
   <h1>Projects</h1>

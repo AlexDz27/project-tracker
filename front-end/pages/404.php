@@ -2,7 +2,7 @@
 
 <body>
 <header class="header cont">
-  <button id="someHeaderMenuBtn">Hdr btn</button>
+  <button id="someHeaderBtn">Hdr btn <span></span></button>
 </header>
   
 <div class="cont">
